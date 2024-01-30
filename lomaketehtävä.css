@@ -1,0 +1,25 @@
+body{
+    background-color: #BFD8AF;
+}
+fieldset{
+    background-color: #99BC85;
+    border: 3px dotted black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+legend{
+    color: darkgreen;
+    font-family: 'Montserrat', sans-serif;
+}
+.input-container{
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+}
+
+.container{
+    padding: 10px;    
+}
+
+
+
+

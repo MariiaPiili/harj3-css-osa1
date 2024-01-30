@@ -1,0 +1,17 @@
+body{
+    background-color: #EBD9B4;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+img{
+    width: 400px;
+    margin-left: 40px;
+}
+.main{
+    margin: 5px;
+}
+.field{
+    margin: 7px;
+    padding: 5px;
+}
+
