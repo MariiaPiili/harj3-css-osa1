@@ -1,24 +1,58 @@
 body{
     background-color: #BFD8AF;
+    text-align: center;
 }
+
 fieldset{
     background-color: #99BC85;
     border: 3px dotted black;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-legend{
-    color: darkgreen;
-    font-family: 'Montserrat', sans-serif;
-}
-.input-container{
-    font-family: 'Montserrat', sans-serif;
-    padding: 5px;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.container{
-    padding: 10px;    
+legend{
+    font-family: 'Montserrat', sans-serif;
 }
+
+.small-container{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.small-container label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.small-container input,
+.small-container textarea{
+    border: 1px solid #777;
+    border-radius: 2px;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+.small-container input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    background-color: #1e8555;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
 
 
 

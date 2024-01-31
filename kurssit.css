@@ -1,17 +1,29 @@
 body{
+    text-align: center;
     background-color: #EBD9B4;
     font-family: 'Roboto', sans-serif;
-    margin-left: 20px;
-}
+    }
+
 img{
     width: 400px;
-    margin-left: 40px;
 }
 .main{
     margin: 5px;
 }
 .field{
-    margin: 7px;
-    padding: 5px;
+    margin: 30px auto; 
+    width: 600px; 
 }
-
+table{
+    margin: 20px auto;
+}
+.field h1,
+.field h2,
+.field h3,
+.field h4 {
+    text-align: center; 
+}
+h1,
+h2 {
+    color: brown;
+}
