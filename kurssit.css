@@ -7,13 +7,18 @@ body{
 
 img{
     width: 400px;
+    transition: transform 0.3s ease;
 }
+img:hover{
+    transform: scale(1.1); 
+}
+
 .main{
     margin: 5px;
 }
 .field{
     margin: 30px auto; 
-    width: 600px; 
+    width: 650px; 
     border: 2px solid brown;
     border-radius: 5px;
     
@@ -24,10 +29,44 @@ table{
 .field h1,
 .field h2,
 .field h3,
-.field h4 {
+.field {
     text-align: center; 
 }
 h1,
 h2 {
     color: brown;
+}
+.zero{
+    background-color: #F9EFDB;
+}
+.one{
+    background-color: #E1F0DA;
+}
+.two{
+    background-color: #D4E7C5;
+}
+.three{
+    background-color: #BFD8AF;
+}
+.four{
+    background-color: #99BC85;
+}
+p{
+    text-align: left;
+    margin-left: 10px;
+}
+ul{
+    text-align: left;
+}
+h4{
+    text-align: left;
+    margin-left: 10px;
+}
+
+a {
+    color: #358638;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #194f31;
 }
