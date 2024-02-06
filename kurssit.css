@@ -2,13 +2,15 @@ body{
     text-align: center;
     background-color: #EBD9B4;
     font-family: 'Roboto', sans-serif;
-    
-    }
+}
 
 img{
-    width: 400px;
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
     transition: transform 0.3s ease;
 }
+
 img:hover{
     transform: scale(1.1); 
 }
@@ -17,21 +19,25 @@ img:hover{
     margin: 5px;
 }
 .field{
-    margin: 30px auto; 
-    width: 650px; 
+    margin: 3% auto; 
+    width: 90%; 
+    max-width: 650px; 
     border: 2px solid brown;
     border-radius: 5px;
-    
 }
+
 table{
-    margin: 20px auto;
+    margin: 5% auto; 
+    width: 90%; 
 }
+
 .field h1,
 .field h2,
 .field h3,
 .field {
     text-align: center; 
 }
+
 h1,
 h2 {
     color: brown;
@@ -51,16 +57,21 @@ h2 {
 .four{
     background-color: #99BC85;
 }
+
 p{
     text-align: left;
-    margin-left: 10px;
+    margin-left: 2%; 
+    margin-right: 2%; 
 }
+
 ul{
     text-align: left;
 }
+
 h4{
     text-align: left;
-    margin-left: 10px;
+    margin-left: 2%; 
+    margin-right: 2%; 
 }
 
 a {
@@ -69,4 +80,8 @@ a {
 }
 a:hover {
     color: #194f31;
+}
+.parent{
+    display:flex;
+    flex-wrap: wrap;
 }
